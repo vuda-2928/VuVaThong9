@@ -1,0 +1,68 @@
+# Ignore specific profiles
+Profiles/browserStack.properties.glbl
+Profiles/realDevice.properties.glbl
+
+
+# Ignore Katalon Studio generated files
+/bin/
+/logs/
+/Reports/
+.cache/
+/build/
+/.metadata/
+/*.katalon/
+*.bak
+*.log
+*.tmp
+
+
+# Ignore Katalon Studio configurations
+/.classpath
+/.project
+/.katalon
+
+
+# Ignore temporary files
+*.swp
+*.swo
+
+
+# Ignore test execution artifacts
+/test-output/
+*.execution.properties
+
+# Ignore screenshots
+/Screenshots/
+
+
+# Ignore User-specific settings
+.settings/
+/GlobalVariable.groovy
+/key.properties
+.katalon/preferences/
+
+
+# Ignore Java and Gradle related files
+/build/
+.gradle/
+/.idea/
+/out/
+/*.iml
+
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.class
+*.jar
+
+
+# Ignore files related to version control and IDEs
+.vscode/
+.idea/
+*.iml
+
+
+# Ignore Katalon Studio license and activation files
+.activation/
+/license/
